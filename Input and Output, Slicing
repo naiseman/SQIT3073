@@ -1,0 +1,23 @@
+
+name='name'
+input1=input('Can you please tell me your name?')
+print(input1)
+print(type(input1))
+output2= input1*10
+print(output2)
+
+input1=float(input('your mass?')) 
+print(input1)
+print(type(input1))
+force= input1*9.81
+print(force)
+
+input1=str(input('tell me your ic?')) 
+print(input1)
+print(type(input1))
+print('give me the last digit is',input1[-8:-4])
+
+input1=str(input('tell me your breakfast?')) 
+print(input1)
+print(len(input1))
+
